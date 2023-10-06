@@ -1,0 +1,18 @@
+{
+  "mainnet": [
+    "ethereum",
+    "bsc",
+    "avalanche",
+    "polygon",
+    "arbitrum",
+    "optimism",
+    "zksync"
+  ],
+  "testnet": [
+    "goerli",
+    "mumbai",
+    "arbitrum-goerli",
+    "optimism-goerli",
+    "zksync-testnet"
+  ]
+}
