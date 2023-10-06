@@ -3,7 +3,7 @@ const { Contract } = require("ethers");
 const { Wallet, Provider } = require("zksync-web3");
 const { getDeploymentAddresses } = require("../utils/readStatic");
 
-const ZKSYNC_OMNICOUNTER = "0xa0E949e2387f56E868Ef88d775e9d55Fa8A91307";
+const ZKSYNC_OMNICOUNTER = "YOUR-ZKSYNC-DEPLOYED-OMNICOUNTER-ADDRESS";
 
 // fetch the contract ABI from the artifacts folder
 // only used if the target network is zksync-testnet

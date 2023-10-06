@@ -35,6 +35,11 @@ npx hardhat --network optimism-goerli deploy --tags OmniCounter
 
 ### Step 2: Configure Remote Addresses
 
+Navigate to the `setTrustedRemote.js` file under `/tasks` and add the zkSync deployed address to the following field:
+```
+const ZKSYNC_OMNICOUNTER = "YOUR-ZKSYNC-DEPLOYED-OMNICOUNTER-ADDRESS
+```
+
 Establish trust between contracts to enable message reception:
 
 ```bash
@@ -57,7 +62,3 @@ npx hardhat --network optimism-goerli incrementCounter --target-network zksync-t
 - 🖥 [GitHub](https://github.com/matter-labs)
 - 🐦 [Twitter](https://twitter.com/zksync)
 - 💬 [Discord](https://discord.gg/nMaPGrDDwk)
-
----
-
-Feel free to adapt or extend as needed!
